@@ -11,7 +11,7 @@ public class CreateStatement {
 
 
 		    private static final String createTableSQL = "create table Users1(\r\n" + "  id  int(3) primary key,\r\n" +
-		        "  name varchar(20),\r\n" + "  email varchar(20),\r\n" + "  country varchar(20),\r\n" +
+		        "  name varchar(20),\r\n" + "  email varchar(30),\r\n" + "  country varchar(20),\r\n" +
 		        "  password varchar(20)\r\n" + "  );";
 
 		    public static void main(String[] argv) throws SQLException {
